@@ -1,303 +1,36 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
-import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deli Cupcake</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <h1 class="app-title">DELI CUCAKE</h1>
+    </header>
 
-import 'home_page_model.dart';
-export 'home_page_model.dart';
+    <main class="app-content">
+      <div class="image-container">
+        <img src="https://images.pexels.com/photos/8082132/pexels-photo-8082132.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" 
+             alt="Cupcake image" class="main-image">
+      </div>
 
-class HomePageWidget extends StatefulWidget {
-  const HomePageWidget({super.key});
+      <h2 class="headline">O melhor CUPCAKE</h2>
 
-  @override
-  State<HomePageWidget> createState() => _HomePageWidgetState();
-}
+      <div class="description">
+        <p>Cheese 'Cup'Cake com Frutas Vermelhas</p>
+      </div>
 
-class _HomePageWidgetState extends State<HomePageWidget> {
-  late HomePageModel _model;
+      <div class="image-container">
+        <img src="https://images.pexels.com/photos/2377173/pexels-photo-2377173.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" 
+             alt="Cupcake closeup" class="main-image">
+      </div>
+    </main>
+  </div>
 
-  final scaffoldKey = GlobalKey<ScaffoldState>();
-
-  @override
-  void initState() {
-    super.initState();
-    _model = createModel(context, () => HomePageModel());
-
-    WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {}));
-  }
-
-  @override
-  void dispose() {
-    _model.dispose();
-
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () => FocusScope.of(context).unfocus(),
-      child: Scaffold(
-        key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-        appBar: AppBar(
-          backgroundColor: Color(0xFFFFE1E2),
-          automaticallyImplyLeading: false,
-          title: Align(
-            alignment: AlignmentDirectional(0, 0),
-            child: AnimatedDefaultTextStyle(
-              style: FlutterFlowTheme.of(context).headlineLarge.override(
-                fontFamily: 'Raleway',
-                letterSpacing: 0.0,
-                shadows: [
-                  Shadow(
-                    color: FlutterFlowTheme.of(context).secondaryText,
-                    offset: Offset(2.0, 2.0),
-                    blurRadius: 2.0,
-                  )
-                ],
-              ),
-              duration: Duration(milliseconds: 600),
-              curve: Curves.bounceOut,
-              child: Text(
-                'DELI CUCAKE',
-                textAlign: TextAlign.center,
-              ),
-            ),
-          ),
-          actions: [],
-          centerTitle: false,
-          elevation: 2,
-        ),
-        body: SafeArea(
-          top: true,
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Align(
-                alignment: AlignmentDirectional(0, 0),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.network(
-                    'https://images.pexels.com/photos/8082132/pexels-photo-8082132.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-                    width: 404,
-                    height: 200,
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-              Text(
-                'O melhor CUPCAKE',
-                textAlign: TextAlign.center,
-                style: FlutterFlowTheme.of(context).headlineLarge.override(
-                      fontFamily: 'Sora',
-                      letterSpacing: 0.0,
-                    ),
-              ),
-              Expanded(
-                child: Align(
-                  alignment: AlignmentDirectional(0, 0),
-                  child: GridView(
-                    padding: EdgeInsets.zero,
-                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 3,
-                      crossAxisSpacing: 10,
-                      mainAxisSpacing: 10,
-                      childAspectRatio: 1,
-                    ),
-                    scrollDirection: Axis.vertical,
-                    children: [
-                      Align(
-                        alignment: AlignmentDirectional(0, 1),
-                        child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            context.pushNamed('Compra1');
-                          },
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8),
-                            child: Image.network(
-                              'https://images.pexels.com/photos/9587107/pexels-photo-9587107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-                              width: 200,
-                              height: 200,
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(0, 1),
-                        child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            context.pushNamed('Compra2');
-                          },
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8),
-                            child: Image.network(
-                              'https://images.pexels.com/photos/28122545/pexels-photo-28122545/free-photo-of-acucar-padaria-panificadora-sobremesa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-                              width: 200,
-                              height: 200,
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(0, 1),
-                        child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            context.pushNamed('Compra3');
-                          },
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8),
-                            child: Image.network(
-                              'https://images.pexels.com/photos/8250849/pexels-photo-8250849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-                              width: 200,
-                              height: 200,
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(0, 1),
-                        child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            context.pushNamed('Compra4');
-                          },
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8),
-                            child: Image.network(
-                              'https://images.pexels.com/photos/9295335/pexels-photo-9295335.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-                              width: 200,
-                              height: 200,
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(0, 1),
-                        child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            context.pushNamed('Compra5');
-                          },
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8),
-                            child: Image.network(
-                              'https://images.pexels.com/photos/9295347/pexels-photo-9295347.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-                              width: 200,
-                              height: 200,
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                      ),
-                      Align(
-                        alignment: AlignmentDirectional(0, 1),
-                        child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            context.pushNamed('Compra6');
-                          },
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8),
-                            child: Image.network(
-                              'https://images.pexels.com/photos/8625928/pexels-photo-8625928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-                              width: 200,
-                              height: 200,
-                              fit: BoxFit.cover,
-                              alignment: Alignment(0, 0),
-                            ),
-                          ),
-                        ),
-                      ),
-                      InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
-                        onTap: () async {
-                          context.pushNamed('Compra7');
-                        },
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(8),
-                          child: Image.network(
-                            'https://images.pexels.com/photos/8625932/pexels-photo-8625932.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-                            width: 200,
-                            height: 200,
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                      InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
-                        onTap: () async {
-                          context.pushNamed('Compra8');
-                        },
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(8),
-                          child: Image.network(
-                            'https://images.pexels.com/photos/5713710/pexels-photo-5713710.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-                            width: 200,
-                            height: 200,
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                      InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
-                        onTap: () async {
-                          context.pushNamed('Compra9');
-                        },
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(8),
-                          child: Image.network(
-                            'https://images.pexels.com/photos/2377173/pexels-photo-2377173.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
-                            width: 200,
-                            height: 200,
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
+  <script src="script.js"></script>
+</body>
+</html>
