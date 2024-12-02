@@ -1,0 +1,483 @@
+Nome: Bredy Nilsen Orrico Valentim
+RGM: 24719196
+
+A partir do modelo a seguir, escreva, no mínimo, 15 histórias – o máximo dependerá
+de quão preciso você quer ser nesse aplicativo de cupcakes:
+
+ID: 01
+Título: Explorar a vitrine virtual
+Requerente: Cliente
+Ação: Como cliente, quero navegar pela vitrine virtual da loja de cupcakes para
+visualizar os produtos disponíveis.
+Comentários:
+Critérios de aceitação:
+CA#1: A vitrine virtual deve exibir todos os cupcakes disponíveis na loja.
+CA#2: As imagens dos cupcakes devem ser de alta qualidade e representar
+fielmente o produto.
+CA#3: As descrições dos cupcakes devem ser claras, concisas e informativas.
+CA#4: Os preços dos cupcakes devem estar atualizados e precisos.
+Regras de negócio:
+RN#1: Cada cupcake deve ter uma única foto principal e fotos adicionais de
+diferentes ângulos.
+RN#2: As descrições dos cupcakes devem incluir o nome do sabor, os ingredientes
+principais e a decoração.
+RN#3: Os preços dos cupcakes devem ser exibidos na moeda local do cliente.
+Requisito não funcional:
+RN F#1: A vitrine virtual deve ser responsiva e se adaptar a diferentes tamanhos
+de tela.
+RN F#2: A vitrine virtual deve ter um tempo de carregamento rápido e eficiente.
+Prioridade:
+[ X] A
+[ ] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 8
+
+ID: 02
+Título: Filtrar e Pesquisar Cupcakes
+Requerente: Cliente
+Ação: Como cliente, quero filtrar e pesquisar cupcakes por sabor, ingredientes,
+preço e outras categorias relevantes.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve permitir filtrar cupcakes por sabor, ingredientes e preço.
+CA#2: O sistema deve permitir pesquisar cupcakes por nome, descrição ou
+palavras-chave.
+CA#3: Os resultados da pesquisa e da filtragem devem ser relevantes e precisos.
+Regras de negócio:
+RN#1: Os filtros de sabor e ingredientes devem incluir todas as opções disponíveis
+na loja.
+RN#2: A faixa de preço para filtragem deve ser flexível e permitir que os clientes
+definam valores mínimos e máximos.
+RN#3: A pesquisa deve ser realizada em todos os campos relevantes do cupcake,
+incluindo nome, descrição, ingredientes e sabor.
+RN F#1: A funcionalidade de filtro e pesquisa deve ser rápida e eficiente.
+RN F#2: O sistema deve fornecer sugestões de pesquisa enquanto o cliente digita.
+Prioridade:
+[ ] A
+[ X ] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 5
+
+ID: 03
+Título: Visualizar Detalhes do Cupcake
+Requerente: Cliente
+Ação: Como cliente, quero visualizar os detalhes completos de um cupcake,
+incluindo imagens, descrição, ingredientes, preço e informações nutricionais.
+Comentários:
+Critérios de aceitação:
+CA#1: A página de detalhes do cupcake deve exibir todas as informações
+mencionadas na história.
+CA#2: As imagens do cupcake devem ser de alta qualidade e representar
+fielmente o produto.
+CA#3: A descrição do cupcake deve ser clara, concisa e informativa.
+CA#4: Os ingredientes do cupcake devem ser listados em ordem decrescente de
+quantidade.
+CA#5: O preço do cupcake deve estar atualizado e preciso.
+CA#6: As informações nutricionais do cupcake devem estar de acordo com as
+normas locais.
+Regras de negócio:
+RN#1: As informações nutricionais do cupcake devem incluir calorias, gorduras,
+carboidratos, proteínas e sódio.
+RN#2: As informações nutricionais do cupcake devem ser apresentadas de forma
+clara e fácil de entender.
+Requisito não funcional:
+RN F#1: A página de detalhes do cupcake
+Prioridade:
+[ ] A
+[ ] B
+[ ] C
+[ X ] D
+[ ] E
+Pontos de história: 3
+
+ID: 04
+Título: Adicionar Cupcakes ao Carrinho
+Requerente: Cliente
+Ação: Como cliente, quero adicionar cupcakes ao meu carrinho de compras para
+prosseguir com a compra.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve permitir que o cliente adicione qualquer cupcake disponível
+na loja ao carrinho.
+CA#2: O sistema deve mostrar a quantidade de cupcakes adicionados ao carrinho.
+CA#3: O sistema deve atualizar o valor total do carrinho à medida que o cliente
+adiciona ou remove itens.
+Regras de negócio:
+RN#1: O cliente deve poder especificar a quantidade de cupcakes que deseja
+adicionar ao carrinho.
+RN#2: O sistema deve verificar se há estoque suficiente do cupcake antes de
+permitir que o cliente o adicione ao carrinho.
+Requisito não funcional:
+RN F#1: A funcionalidade de adicionar ao carrinho deve ser rápida e eficiente.
+RN F#2: O sistema deve fornecer feedback visual ao cliente quando um cupcake é
+adicionado ao carrinho.
+Prioridade:
+[ X] A
+[ ] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 3
+
+ID: 05
+Título: Visualizar Carrinho de Compras
+Requerente: Cliente
+Ação: Como cliente, quero visualizar meu carrinho de compras para revisar os
+itens selecionados, quantidades e valor total.
+Comentários:
+Critérios de aceitação:
+CA#1: A página do carrinho de compras deve listar todos os cupcakes adicionados
+pelo cliente.
+CA#2: A página do carrinho de compras deve mostrar a quantidade de cada
+cupcake.
+CA#3: A página do carrinho de compras deve exibir o valor total da compra.
+CA#4: A página do carrinho de compras deve permitir que o cliente remova itens
+do carrinho.
+CA#5: A página do carrinho de compras deve permitir que o cliente atualize a
+quantidade de cada item.
+Regras de negócio:
+RN#1: O sistema deve recalcular o valor total do carrinho sempre que a quantidade
+de um item for atualizada.
+RN#2: O sistema deve permitir que o cliente remova um item do carrinho apenas
+se a quantidade for superior a 1.
+Requisito não funcional:
+RN F#1: A página do carrinho de compras deve ser responsiva e se adaptar a
+diferentes tamanhos de tela.
+RN F#2: O sistema deve salvar o carrinho de compras do cliente, mesmo que ele
+feche o navegador ou a guia.
+Prioridade:
+[ X] A
+[ ] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 5
+
+ID: 06
+Título: Aplicar Cupons de Desconto
+Requerente: Cliente
+Ação: Como cliente, quero aplicar cupons de desconto no meu carrinho de
+compras para reduzir o valor total da compra.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve permitir que o cliente insira um código de cupom de
+desconto.
+CA#2: O sistema deve verificar se o código de cupom é válido e ativo.
+CA#3: O sistema deve aplicar o desconto no valor total da compra se o código for
+válido.
+CA#4: O sistema deve exibir uma mensagem informativa se o código de cupom for
+inválido ou expirado.
+Regras de negócio:
+RN#1: Cada cupom de desconto deve ter um código único e um período de
+validade.
+RN#2: Um cupom de desconto só pode ser usado em uma única compra.
+RN#3: O valor do desconto concedido por um cupom deve ser configurado pelo
+administrador da loja.
+Requisito não funcional:
+RN F#1: O sistema deve processar a aplicação do cupom de desconto de forma
+rápida e eficiente
+Prioridade:
+[ ] A
+[X] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 6
+
+ID: 07
+Título: Escolher Endereço de Entrega
+Requerente: Cliente
+Ação: Como cliente, quero escolher o endereço de entrega para onde os cupcakes
+serão enviados.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve fornecer campos para o cliente inserir todas as informações
+de endereço necessárias.
+CA#2: O sistema deve validar os dados de endereço informados pelo cliente.
+CA#3: O sistema deve salvar o endereço de entrega escolhido pelo cliente.
+Regras de negócio:
+RN#1: O sistema deve verificar se o CEP informado pelo cliente é válido e
+corresponde a um endereço real.
+RN#2: O sistema deve permitir que o cliente salve o endereço de entrega como
+endereço padrão para futuras compras.
+Requisito não funcional:
+RN F#1: O sistema deve integrar com serviços de geolocalização para sugerir
+endereços automaticamente.
+RN F#2: O sistema deve salvar o histórico de endereços de entrega do cliente.
+Prioridade:
+[ X] A
+[ ] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 4
+
+ID: 08
+Título: Escolher Data e Horário de Entrega
+Requerente: Cliente
+Ação: como cliente, quero escolher a data e o horário de entrega dos cupcakes.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve fornecer um calendário para o cliente escolher a data de
+entrega.
+CA#2: O sistema deve fornecer um seletor de horário para o cliente escolher a
+hora de entrega.
+CA#3: O sistema deve verificar se a data e o horário escolhidos são compatíveis
+com a disponibilidade da loja.
+Regras de negócio:
+RN#1: A loja deve definir horários de funcionamento para entregas.
+RN#2: O sistema deve verificar se há capacidade de entrega para a data e horário
+escolhidos pelo cliente.
+Requisito não funcional:
+RN F#1: O sistema deve exibir uma mensagem informativa se a data e o horário
+escolhidos não forem compatíveis com a disponibilidade da loja.
+RN F#2: O sistema deve permitir que o cliente faça o agendamento da entrega
+com antecedência.
+Prioridade:
+[ X] A
+[ ] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 4
+
+ID: 09
+Título: Escolher Forma de Pagamento
+Requerente: Cliente
+Ação: Como cliente, quero escolher a forma de pagamento para a minha compra
+de cupcakes.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve listar as formas de pagamento disponíveis na loja.
+CA#2: O sistema deve permitir que o cliente escolha a forma de pagamento
+desejada.
+CA#3: O sistema deve redirecionar o cliente para um ambiente seguro para
+realizar o pagamento.
+CA#4: O sistema deve confirmar o pagamento realizado pelo cliente.
+Regras de negócio:
+RN#1: A loja deve definir as formas de pagamento aceitas.
+RN#2: O sistema deve integrar com as plataformas de pagamento escolhidas pela
+loja.
+RN#3: O sistema deve garantir a segurança das transações financeiras.
+Requisito não funcional:
+RN F#1: O sistema deve processar os pagamentos de forma rápida e eficiente.
+RN F#2: O sistema deve oferecer suporte a pagamentos em diferentes moedas.
+Prioridade:
+[ X] A
+[ ] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 5
+
+ID: 10
+Título: Confirmar Pedido
+Requerente: Cliente
+Ação: Como cliente, quero confirmar meu pedido de cupcakes e finalizar a compra.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve exibir uma página de resumo do pedido, incluindo a lista de
+cupcakes selecionados, quantidade, valor total, endereço de entrega, data e
+horário de entrega, forma de pagamento escolhida e valor final.
+CA#2: O sistema deve permitir que o cliente revise e edite qualquer informação do
+pedido, exceto os itens do carrinho.
+CA#3: O sistema deve permitir que o cliente confirme o pedido após a revisão.
+Regras de negócio:
+RN#1: O sistema deve gerar um número de identificação único para o pedido após
+a confirmação.
+RN#2: O sistema deve enviar um e-mail de confirmação do pedido para o cliente.
+Requisito não funcional:
+RN F#1: A página de resumo do pedido deve ser clara e informativa.
+RN F#2: O sistema deve permitir que o cliente cancele o pedido antes da
+confirmação.
+Prioridade:
+[ X] A
+[ ] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 3
+
+ID: 11
+Título: Acompanhar Pedido
+Requerente: Cliente
+Ação: Como cliente, quero acompanhar o status do meu pedido de cupcakes para
+saber o momento da entrega.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve fornecer uma área dedicada para o cliente visualizar o
+histórico de seus pedidos.
+CA#2: O sistema deve exibir o status atual do pedido (exemplo: "Em preparação",
+"A caminho da entrega", "Entregue").
+CA#3: O sistema deve permitir que o cliente rastreie a entrega do pedido, caso a
+loja utilize serviços de courier com rastreamento.
+Regras de negócio:
+RN#1: O status do pedido deve ser atualizado automaticamente de acordo com as
+etapas do processo (preparação, separação, entrega).
+RN#2: O sistema deve integrar-se com o sistema de logística da loja, caso haja,
+para obter informações atualizadas sobre o status da entrega.
+Requisito não funcional:
+RN F#1: A área de acompanhamento de pedidos deve ser acessível facilmente
+pelo cliente.
+RN F#2: O sistema deve enviar notificações ao cliente por e-mail ou SMS sobre o
+status do pedido.
+Prioridade:
+[ ] A
+[ X] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 85
+
+ID: 12
+Título: Cancelar Pedido
+Requerente: Cliente
+Ação: Como cliente, quero ter a possibilidade de cancelar meu pedido de cupcakes
+antes da entrega.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve oferecer uma opção para o cliente cancelar o pedido.
+CA#2: O sistema deve solicitar a confirmação do cancelamento pelo cliente.
+CA#3: O sistema deve cancelar o pedido e reembolsar o cliente, caso o
+pagamento já tenha sido realizado.
+Regras de negócio:
+RN#1: O cliente só poderá cancelar o pedido antes dele ser despachado para a
+entrega.
+RN#2: O sistema deve definir o prazo para o cliente solicitar o cancelamento e
+reembolso do pedido.
+RN#3: A política de cancelamento e reembolso da loja deve ser claramente
+definida e informada ao cliente.
+Requisito não funcional:
+RN F#1: O sistema deve processar o cancelamento do pedido de forma rápida e
+eficiente.
+RN F#2: O sistema deve enviar um e-mail de confirmação do cancelamento para o
+cliente.
+Prioridade:
+[ ] A
+[ ] B
+[ X] C
+[ ] D
+[ ] E
+Pontos de história: 3
+
+ID: 13
+Título: Gerenciar Estoque de Cupcakes
+Requerente: Administrador
+Ação: Como administrador da loja, quero gerenciar o estoque de cupcakes para
+garantir a disponibilidade para os clientes.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve exibir uma lista completa de todos os cupcakes disponíveis
+na loja, com informações sobre sabor, quantidade em estoque e status (ativo,
+inativo).
+CA#2: O sistema deve permitir que o administrador adicione novos cupcakes ao
+estoque, informando sabor, quantidade inicial e preço.
+CA#3: O sistema deve permitir que o administrador atualize a quantidade em
+estoque de cada cupcake.
+CA#4: O sistema deve permitir que o administrador marque um cupcake como
+inativo caso ele esteja indisponível para venda.
+Regras de negócio:
+RN#1: O sistema deve atualizar automaticamente o estoque de cupcakes à medida
+que os pedidos são realizados.
+RN#2: O sistema deve enviar alertas ao administrador quando a quantidade de um
+cupcake estiver próxima de esgotar.
+Requisito não funcional:
+RN F#1: A interface de gerenciamento de estoque deve ser intuitiva e fácil de usar.
+RN F#2: O sistema deve gerar relatórios sobre o estoque de cupcakes, com
+informações sobre vendas, consumo e necessidade de reposição.
+Prioridade:
+[ ] A
+[ X] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 5
+
+ID: 14
+Título: Criar Promoções e Descontos
+Requerente: ClienteAdministrador da Loja
+Ação: Como administrador da loja, quero criar promoções e descontos em
+cupcakes para atrair novos clientes e aumentar as vendas.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve permitir que o administrador crie novas promoções,
+definindo o tipo de desconto (porcentagem, valor fixo), os cupcakes participantes, o
+período.
+CA#2: O sistema deve exibir uma lista completa de todas as promoções ativas na
+loja, com informações sobre o tipo de desconto, cupcakes participantes, período de
+validade e regras de aplicação.
+CA#3: O sistema deve aplicar automaticamente os descontos nos pedidos dos
+clientes, de acordo com as regras definidas nas promoções.
+Regras de negócio:
+RN#1: O administrador deve ter a flexibilidade de criar diferentes tipos de
+promoções, como descontos por sabor, por quantidade ou por período de tempo.
+RN#2: O sistema deve verificar se as regras das promoções não geram conflitos
+ou incoerências.
+Requisito não funcional:
+RN F#1: A interface de criação de promoções deve ser intuitiva e fácil de usar.
+RN F#2: O sistema deve gerar relatórios sobre o desempenho das promoções,
+com informações sobre o número de pedidos beneficiados, valor total dos
+descontos concedidos e impacto nas vendas.
+Prioridade:
+[ ] A
+[ X] B
+[ ] C
+[ ] D
+[ ] E
+Pontos de história: 5
+
+ID: 15
+Título: Analisar Relatórios de Vendas
+Requerente: Administrador da Loja
+Ação: Como administrador da loja, quero analisar relatórios de vendas para
+acompanhar o desempenho da loja e tomar decisões estratégicas.
+Comentários:
+Critérios de aceitação:
+CA#1: O sistema deve gerar relatórios de vendas por período (dia, semana, mês),
+com informações sobre o número de pedidos, valor total das vendas, cupcakes
+mais vendidos, sabores mais populares e métodos de pagamento utilizados.
+CA#2: O sistema deve permitir que o administrador filtre os relatórios por sabor,
+preço, data, cliente recorrente e outros critérios relevantes. * CA3: O sistema deve
+permitir que o administrador exporte os relatórios de vendas para diferentes
+formatos (PDF, CSV).
+Regras de negócio:
+RN#1: Os relatórios de vendas devem considerar todas as etapas do pedido,
+incluindo pedidos realizados, cancelados e concluídos.
+RN#2: O sistema deve permitir que o administrador compare o desempenho de
+vendas entre diferentes períodos.
+Requisito não funcional:
+RN F#1: O sistema deve gerar relatórios de forma rápida e eficiente, sem
+prejudicar o desempenho da loja virtual.
+RN F#2: O sistema deve fornecer ferramentas para visualização de dados, como
+gráficos e tabelas dinâmicas, para facilitar a análise das vendas.
+Prioridade:
+[ ] A
+[ X ] B
+[ ] C
+[ ] D
+[ ] E
+
+Pontos de história: 8
+Aqui, a partir do modelo a seguir, você poderá montar um backlog de produto já
+priorizando as histórias e colocando os cartões de história do usuário organizados
+por tema.
+ID História do usuário Estimativa em pontos Prioridade
+1 Explorar Vitrine Virtual           8 Alta
+4 Adicionar Cupcakes ao Carrinho     3 Alta
+5 Visualizar Carrinho de Compras     5 Alta
+7 Escolher Endereço de Entrega       4 Alta
+8 Escolher Data e Horário de Entrega 4 Alta
+9 Escolher Forma de Pagamento         5 Alta
+10 Confirmar Pedido                   3 Alta
+2 Filtrar e Pesquisar Cupcakes         5 Média
+3 Visualizar Detalhes do Cupcake       8 Média
+6 Aplicar Cupons de Desconto           3 Média
+11 Acompanhar Pedido                 5 Média
+12 Cancelar Pedido                   3 Média
+13 Gerenciar Estoque de Cupcakes     5 Baixa
+14 Criar Promoções e Descontos       5 Baixa
+15 Analisar Relatórios de Vendas     8 Baixa
