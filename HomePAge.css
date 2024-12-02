@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f8f9fa;
+}
+
+#app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #ffe1e2;
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  font-size: 36px;
+  color: #333;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.app-content {
+  padding: 20px;
+}
+
+.image-container {
+  margin: 20px auto;
+}
+
+.main-image {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.headline {
+  font-size: 28px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 18px;
+  color: #777;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  text-align: center;
+}
